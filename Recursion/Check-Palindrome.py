@@ -9,11 +9,8 @@ def isPalin(N):
             return False
         return isPalin(str(N)[1:-1])
 
-'''
-Examples:
-Input: 1010101
-Output: True
 
-Input: 57567
-Output: False
-'''
+#Examples:
+#Input: 1010101
+#Output: True
+
