@@ -35,12 +35,12 @@ def get_min_max(arr):
             i=i+2
             
         return mi,ma
-'''
-Examples:
 
-Input: arr[] = [3, 2, 1, 56, 10000, 167]
-Output: 1 10000
+#Examples:
 
-Input: arr[] = [1, 2, 3, 4, 5]
-Output: 1 5
-'''
+#Input: arr[] = [3, 2, 1, 56, 10000, 167]
+#Output: 1 10000
+
+#Input: arr[] = [1, 2, 3, 4, 5]
+#Output: 1 5
+
