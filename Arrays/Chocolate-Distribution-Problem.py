@@ -10,10 +10,9 @@ def findMinDiff(arr,m):
                 min_diff=diff
         return min_diff
 
-'''Example:
-Input: arr = [12, 4, 7, 9, 23, 25,41, 30, 40, 28, 42, 30, 44, 48, 43, 50], m = 7
-Output: 10
+#Example:
+#Input: arr = [12, 4, 7, 9, 23, 25,41, 30, 40, 28, 42, 30, 44, 48, 43, 50], m = 7
+#Output: 10
 
-Input: arr = [12, 4, 7, 9, 23, 25,41, 30], m = 3
-Output: 5
-'''
+#Input: arr = [12, 4, 7, 9, 23, 25,41, 30], m = 3
+#Output: 5
