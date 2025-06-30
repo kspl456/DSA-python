@@ -10,10 +10,6 @@ def rotate(arr):
         arr[0]=last
         return arr
 
-'''Examples:
-Input: arr[] = [1, 2, 3, 4, 5]
-Output: [5, 1, 2, 3, 4]
-
-Input: arr[] = [10, 20, 30, 40, 50]
-Output: [50, 10, 20, 30, 40]
-'''
+# Example:
+# Input: arr = [1, 2, 3, 4, 5]
+# Output: [5, 1, 2, 3, 4]
