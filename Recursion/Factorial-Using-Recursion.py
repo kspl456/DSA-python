@@ -5,11 +5,7 @@ def factorial(self,n):
             return 1
         return factorial(n-1) * n
 
-'''
-Examples
-Input: 3
-Output: 6
-
-Input: 7
-Output: 5040
-'''
+# Example:
+# Input: n = 5  
+# Output: 120
+# Explanation: 5! = 5 * 4 * 3 * 2 * 1 = 120
