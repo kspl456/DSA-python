@@ -4,11 +4,7 @@ def sumOfDigits(n):
             return n
         return n%10 + sumOfDigits(n//10)
 
-'''
-Examples:
-Input: 231
-Output: 6
-
-Input: 5792
-Output: 5
-'''
+# Example:
+# Input: n = 12345  
+# Output: 15
+# Explanation: The sum of the digits is 1 + 2 + 3 + 4 + 5 = 15
