@@ -4,11 +4,8 @@ def fibonacci(n):
             return n
         return fibonacci(n-1) + fibonacci(n-2)
 
-'''
-Examples:
-Input: 1
-Output: 1
-
-Input: 5
-Output: 5
-'''
+# Example:
+# Input: n = 5  
+# Output: 5
+# Explanation: The Fibonacci sequence is 0, 1, 1, 2, 3, 5, ...
+# The 5th Fibonacci number is 5.
