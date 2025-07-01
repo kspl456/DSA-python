@@ -1,5 +1,4 @@
 # Find the Great Product
-# Problem: Find the Great Product
 # --------------------------------
 # Given an array of N integers, the task is to compute and print the highest possible
 # product that can be obtained by multiplying any three numbers from the array.
