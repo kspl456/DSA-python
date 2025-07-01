@@ -1,5 +1,4 @@
 #Eat More and Walk Less
-# Problem: Eat More and Walk Less
 # --------------------------------
 # Marc loves eating cupcakes, but he also wants to stay fit.
 # He eats all n cupcakes in one sitting. Each cupcake i has a certain calorie count c[i].
