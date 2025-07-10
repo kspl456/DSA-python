@@ -16,8 +16,8 @@
 # 1 ≤ arr.size() ≤ 10^5 
 # 0 ≤ arr[i] ≤ 1
 
+
 def countOnes(arr):
-        #code here
         n=len(arr)
         low=0;high=n-1
         res=-1
