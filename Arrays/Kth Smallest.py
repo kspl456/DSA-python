@@ -19,12 +19,12 @@ Constraints:
 '''
 import heapq
 def kthSmallest(arr,k):
-        for i in range(len(arr)):
-            arr[i]=-arr[i]
-        heapq.heapify(arr)
-        while len(arr) >k:
-            heapq.heappop(arr)
-        return(-heapq.heappop(arr))
+    for i in range(len(arr)):
+        arr[i]=-arr[i]
+    heapq.heapify(arr)
+    while len(arr) >k:
+        heapq.heappop(arr)
+    return(-heapq.heappop(arr))
 
 '''
 Optimal Approach: Max-Heap of size k
