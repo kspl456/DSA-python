@@ -48,9 +48,9 @@ def isPowerOfFour(n):
 
 '''
 Approach:
-1. Perform a bitwise AND operation between n and (n-1). If n is a power of four, this operation will yield 0.
+1. Perform a bitwise AND operation between n and (n-1). If n is a power of two, this operation will yield 0.
 2. Check if n is greater than 0 to ensure we are not dealing with negative numbers or zero, which cannot be powers of four.
-3. Additionally, check if (n-1) is divisible by 3. This condition ensures that the number is a power of four, as powers of four in binary representation have a specific pattern.
+3. Additionally, check if (n-1) is divisible by 3
 Why it works:
 - A power of four in binary representation has exactly one bit set to 1, and it is at an even position (e.g., 1 is 0001, 4 is 0100, 16 is 10000).
 - If a number is a power of four, subtracting 1 from it will yield a number that is divisible by 3.
