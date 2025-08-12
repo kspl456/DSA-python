@@ -16,7 +16,7 @@ n == matrix.length == matrix[i].length
 1 <= n <= 20
 -1000 <= matrix[i][j] <= 1000
 '''
-
+#method 1: Layer-by-Layer In-Place Rotation
 def rotate(matrix):
 
         left,right=0,len(matrix)-1
@@ -54,4 +54,26 @@ Approach: Layer-by-Layer In-Place Rotation (Clockwise 90°)
        -->left → top
 
 3.Move inward by incrementing left and decrementing right, and repeat until all layers are rotated.
+'''
+
+#method 2: Transpose and Reverse
+def rotate(matrix):
+        n=len(matrix)
+        for i in range(n):
+            for j in range(i):
+                matrix[i][j],matrix[j][i]=matrix[j][i],matrix[i][j]
+        for i in range(n):
+            matrix[i].reverse()
+
+'''
+Approach: Transpose and Reverse
+1.Transpose the matrix:
+    ->Iterate through the matrix and swap elements at positions (i, j) and (j, i) for all i < j.
+    ->This effectively flips the matrix over its diagonal.
+2.Reverse each row:
+    ->After transposing, reverse each row of the matrix.
+    ->This completes the 90° clockwise rotation.
+
+Time Complexity: O(n^2), where n is the number of rows or columns in the matrix.
+Space Complexity: O(1), since we are modifying the matrix in-place without using any additional
 '''
